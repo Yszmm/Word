@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#efeff4"
+    tools:context=".activity.AboutActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="120dp"
+        android:src="@mipmap/avatar"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="佐达."
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:textColor="#717171"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="联系: 1132890172@qq.com"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="源代码: https://github.com/Yszmm"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:autoLink="web"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="作者博客: https://www.wuzuoda.top"
+        android:textSize="20dp"
+        android:autoLink="web"
+        android:gravity="center"
+        />
+</LinearLayout>

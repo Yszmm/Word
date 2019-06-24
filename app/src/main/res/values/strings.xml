@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">佐达.</string>
+    <string name="today">词汇</string>
+    <string name="dictionary">词典</string>
+    <string name="settings">设置</string>
+    <string name="myword">单词本</string>
+    <string name="about">关于软件</string>
+    <string name="version">当前版本: 2.1</string>
+</resources>
